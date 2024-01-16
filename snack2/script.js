@@ -40,9 +40,11 @@ const students = [
 
 
 // Lista di studenti con voto superiore a 70
-const gradeOver70 = students.filter((student) => student.grade > 70);
-console.log(gradeOver70)
+const gradeOver70List = students.filter((student) => student.grade > 70);
+console.log(gradeOver70List);
 
 // Lista di studenti che hanno un totale di voti superiore a 70 e id superiore a 120
+const gradeOver70AndIdover120 = students.filter((student) => student.grade > 70 && student.id > 120);
+console.log(gradeOver70AndIdover120);
 
 // Stampare le targhe col nome degli studenti: creare una lista contenente il loro nome tutto in maiuscolo
