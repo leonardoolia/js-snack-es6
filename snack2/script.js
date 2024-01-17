@@ -48,3 +48,7 @@ const gradeOver70AndIdover120 = students.filter((student) => student.grade > 70 
 console.log(gradeOver70AndIdover120);
 
 // Stampare le targhe col nome degli studenti: creare una lista contenente il loro nome tutto in maiuscolo
+const nameBadgeList = students.map(({ name }) => name.toUpperCase());
+
+console.log(nameBadgeList);
+
